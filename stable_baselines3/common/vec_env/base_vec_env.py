@@ -5,7 +5,7 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple, Type, U
 
 import cloudpickle
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 # Define type aliases here to avoid circular import

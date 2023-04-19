@@ -1,4 +1,4 @@
-import numpy as np
+import cunumeric as np
 
 from stable_baselines3.common.vec_env.base_vec_env import VecEnv, VecEnvStepReturn, VecEnvWrapper
 

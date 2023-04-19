@@ -1,7 +1,7 @@
 from collections import OrderedDict
 from typing import Any, Dict, Optional, Tuple, Union
 
-import numpy as np
+import cunumeric as np
 from gymnasium import Env, spaces
 from gymnasium.envs.registration import EnvSpec
 

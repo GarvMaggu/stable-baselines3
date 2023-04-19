@@ -69,7 +69,7 @@ This example is only to demonstrate the use of the library and its functions, an
 .. code-block:: python
 
   import gymnasium as gym
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import SAC
 

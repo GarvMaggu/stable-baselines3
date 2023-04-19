@@ -4,7 +4,7 @@ from collections import OrderedDict
 from typing import Any, Callable, List, Optional, Sequence, Tuple, Type, Union
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common.vec_env.base_vec_env import (

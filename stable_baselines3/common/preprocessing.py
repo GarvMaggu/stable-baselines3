@@ -1,7 +1,7 @@
 import warnings
 from typing import Dict, Tuple, Union
 
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 from torch.nn import functional as F

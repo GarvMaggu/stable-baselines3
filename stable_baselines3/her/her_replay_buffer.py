@@ -2,7 +2,7 @@ import copy
 import warnings
 from typing import Any, Dict, List, Optional, Union
 
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 

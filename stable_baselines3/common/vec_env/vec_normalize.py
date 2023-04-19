@@ -3,7 +3,7 @@ import pickle
 from copy import deepcopy
 from typing import Any, Dict, List, Optional, Union
 
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common import utils

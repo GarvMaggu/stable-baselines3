@@ -1,7 +1,7 @@
 from copy import deepcopy
 from typing import Dict, Union
 
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common.preprocessing import is_image_space, is_image_space_channels_first

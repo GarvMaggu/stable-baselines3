@@ -13,6 +13,7 @@ dependencies:
     - opencv-python-headless
     - pandas
     - numpy
+    - cunumeric
     - matplotlib
     - sphinx_autodoc_typehints
     - sphinx>=4.2

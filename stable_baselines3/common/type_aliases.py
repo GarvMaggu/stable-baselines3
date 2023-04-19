@@ -5,7 +5,7 @@ from enum import Enum
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, SupportsFloat, Tuple, Union
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 import torch as th
 
 if sys.version_info >= (3, 8):

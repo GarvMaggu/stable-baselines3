@@ -7,7 +7,7 @@ import warnings
 from typing import Dict, Optional
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 import pytest
 from gymnasium import spaces
 

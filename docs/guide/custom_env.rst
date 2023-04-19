@@ -27,7 +27,7 @@ That is to say, your environment must implement the following methods (and inher
 .. code-block:: python
 
   import gymnasium as gym
-  import numpy as np
+  import cunumeric as np
   from gymnasium import spaces
 
 

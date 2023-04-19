@@ -106,7 +106,7 @@ You can find below an example for extracting one key from the observation:
 
 .. code-block:: python
 
-	import numpy as np
+	import cunumeric as np
 
 	from stable_baselines3.common.vec_env.base_vec_env import VecEnv, VecEnvStepReturn, VecEnvWrapper
 

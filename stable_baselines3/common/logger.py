@@ -7,7 +7,7 @@ import warnings
 from collections import defaultdict
 from typing import Any, Dict, List, Mapping, Optional, Sequence, TextIO, Tuple, Union
 
-import numpy as np
+import cunumeric as np
 import pandas
 import torch as th
 from matplotlib import pyplot as plt

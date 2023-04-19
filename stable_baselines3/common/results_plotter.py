@@ -1,6 +1,6 @@
 from typing import Callable, List, Optional, Tuple
 
-import numpy as np
+import cunumeric as np
 import pandas as pd
 
 # import matplotlib

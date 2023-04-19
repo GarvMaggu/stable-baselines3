@@ -49,7 +49,7 @@ which defines for the python process, how it should handle floating point error.
 
 .. code-block:: python
 
-  import numpy as np
+  import cunumeric as np
 
   np.seterr(all="raise")  # define before your code.
 
@@ -64,7 +64,7 @@ but this will also avoid overflow issues on floating point numbers:
 
 .. code-block:: python
 
-  import numpy as np
+  import cunumeric as np
 
   np.seterr(all="raise")  # define before your code.
 
@@ -79,7 +79,7 @@ but will not avoid the propagation issues:
 
 .. code-block:: python
 
-  import numpy as np
+  import cunumeric as np
 
   np.seterr(all="raise")  # define before your code.
 
@@ -102,7 +102,7 @@ It will monitor the actions, observations, and rewards, indicating what action o
 
   import gymnasium as gym
   from gymnasium import spaces
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import PPO
   from stable_baselines3.common.vec_env import DummyVecEnv, VecCheckNan

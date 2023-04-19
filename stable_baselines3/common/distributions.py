@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Optional, Tuple, TypeVar, Union
 
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 from torch import nn

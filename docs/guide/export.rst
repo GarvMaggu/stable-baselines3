@@ -85,7 +85,7 @@ For PPO, assuming a shared feature extractor.
 
   import onnx
   import onnxruntime as ort
-  import numpy as np
+  import cunumeric as np
 
   onnx_path = "my_ppo_model.onnx"
   onnx_model = onnx.load(onnx_path)
@@ -141,7 +141,7 @@ For SAC the procedure is similar. The example shown only exports the actor netwo
   ##### Load and test with onnx
 
   import onnxruntime as ort
-  import numpy as np
+  import cunumeric as np
 
   onnx_path = "my_sac_actor.onnx"
 

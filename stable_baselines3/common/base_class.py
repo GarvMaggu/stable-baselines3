@@ -9,7 +9,7 @@ from collections import deque
 from typing import Any, Dict, Iterable, List, Optional, Tuple, Type, TypeVar, Union
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 

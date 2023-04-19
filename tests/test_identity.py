@@ -1,4 +1,4 @@
-import numpy as np
+import cunumeric as np
 import pytest
 
 from stable_baselines3 import A2C, DDPG, DQN, PPO, SAC, TD3

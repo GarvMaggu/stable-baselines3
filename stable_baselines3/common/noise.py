@@ -2,8 +2,8 @@ import copy
 from abc import ABC, abstractmethod
 from typing import Iterable, List, Optional
 
-import numpy as np
-from numpy.typing import DTypeLike
+import cunumeric as np
+from np.typing import DTypeLike
 
 
 class ActionNoise(ABC):

@@ -116,7 +116,7 @@ Multiprocessing: Unleashing the Power of Vectorized Environments
 .. code-block:: python
 
   import gymnasium as gym
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import PPO
   from stable_baselines3.common.vec_env import DummyVecEnv, SubprocVecEnv
@@ -230,7 +230,7 @@ If your callback returns False, training is aborted early.
   import os
 
   import gymnasium as gym
-  import numpy as np
+  import cunumeric as np
   import matplotlib.pyplot as plt
 
   from stable_baselines3 import TD3
@@ -436,7 +436,7 @@ The parking env is a goal-conditioned continuous control task, in which the vehi
 
   import gymnasium as gym
   import highway_env
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import HerReplayBuffer, SAC, DDPG, TD3
   from stable_baselines3.common.noise import NormalActionNoise
@@ -626,7 +626,7 @@ A2C policy gradient updates on the model.
   from typing import Dict
 
   import gymnasium as gym
-  import numpy as np
+  import cunumeric as np
   import torch as th
 
   from stable_baselines3 import A2C
@@ -772,7 +772,7 @@ Bonus: Make a GIF of a Trained Agent
 .. code-block:: python
 
   import imageio
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import A2C
 

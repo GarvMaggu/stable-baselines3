@@ -4,7 +4,7 @@ Helpers for dealing with vectorized environments.
 from collections import OrderedDict
 from typing import Any, Dict, List, Tuple
 
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common.preprocessing import check_for_nested_spaces

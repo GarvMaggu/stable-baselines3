@@ -237,7 +237,7 @@ you can adapt the following code which defines a custom logger output:
   from typing import Any, Dict, Tuple, Union
 
   import mlflow
-  import numpy as np
+  import cunumeric as np
 
   from stable_baselines3 import SAC
   from stable_baselines3.common.logger import HumanOutputFormat, KVWriter, Logger

@@ -1,7 +1,7 @@
 from typing import Dict, Optional
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 import pytest
 import torch as th
 from gymnasium import spaces

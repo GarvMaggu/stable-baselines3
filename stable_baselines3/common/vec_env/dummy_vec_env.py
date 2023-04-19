@@ -4,7 +4,7 @@ from copy import deepcopy
 from typing import Any, Callable, List, Optional, Sequence, Type, Union
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 
 from stable_baselines3.common.vec_env.base_vec_env import VecEnv, VecEnvIndices, VecEnvObs, VecEnvStepReturn
 from stable_baselines3.common.vec_env.patch_gym import _patch_env

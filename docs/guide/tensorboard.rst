@@ -72,7 +72,7 @@ Here is a simple example on how to log both additional tensor or arbitrary scala
 
 .. code-block:: python
 
-    import numpy as np
+    import cunumeric as np
 
     from stable_baselines3 import SAC
     from stable_baselines3.common.callbacks import BaseCallback
@@ -150,7 +150,7 @@ Here is an example of how to store a plot in TensorBoard at regular intervals:
 
 .. code-block:: python
 
-    import numpy as np
+    import cunumeric as np
     import matplotlib.pyplot as plt
 
     from stable_baselines3 import SAC

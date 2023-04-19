@@ -3,7 +3,7 @@ import pathlib
 import warnings
 from copy import deepcopy
 
-import numpy as np
+import cunumeric as np
 import pytest
 import torch as th
 

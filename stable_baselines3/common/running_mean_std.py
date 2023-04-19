@@ -1,6 +1,6 @@
 from typing import Tuple
 
-import numpy as np
+import cunumeric as np
 
 
 class RunningMeanStd:

@@ -1,4 +1,4 @@
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common.vec_env.stacked_observations import StackedObservations

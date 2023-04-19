@@ -2,7 +2,7 @@ import warnings
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Generator, List, Optional, Union
 
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 

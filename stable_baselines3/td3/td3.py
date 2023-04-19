@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional, Tuple, Type, TypeVar, Union
 
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 from torch.nn import functional as F

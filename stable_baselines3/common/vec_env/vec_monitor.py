@@ -2,7 +2,7 @@ import time
 import warnings
 from typing import Optional, Tuple
 
-import numpy as np
+import cunumeric as np
 
 from stable_baselines3.common.vec_env.base_vec_env import VecEnv, VecEnvObs, VecEnvStepReturn, VecEnvWrapper
 

@@ -1,7 +1,7 @@
 from typing import Dict, Optional, Tuple, Union
 
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 from gymnasium import spaces
 
 from stable_baselines3.common.type_aliases import GymStepReturn

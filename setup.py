@@ -104,6 +104,7 @@ setup(
     install_requires=[
         "gymnasium==0.28.1",
         "numpy",
+        "cunumeric",
         "torch>=1.11",
         'typing_extensions>=4.0,<5; python_version < "3.8.0"',
         # For saving models

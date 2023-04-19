@@ -10,7 +10,7 @@ from typing import Dict, Iterable, List, Optional, Tuple, Union
 
 import cloudpickle
 import gymnasium as gym
-import numpy as np
+import cunumeric as np
 import torch as th
 from gymnasium import spaces
 
