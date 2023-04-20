@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from typing import Iterable, List, Optional
 
 import cunumeric as np
-from np.typing import DTypeLike
+from cunumeric.typing import DTypeLike
 
 
 class ActionNoise(ABC):
